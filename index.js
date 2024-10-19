@@ -121,6 +121,8 @@ bot.on('end', createBot)
 
 createBot()
 
+client.login(process.env.TOKEN); //Login bot using token
+
 //// Rembember to sucribe to my channels!
 /// www.youtube.com/c/JinMoriYT
 ///www.youtube.com/channel/UC1SR0lQSDfdaSMhmUiaMitg
